@@ -1,0 +1,10 @@
+#Files
+.DS_store
+.project
+.settings
+.classpath
+.circleci
+
+#Directories
+
+target/
