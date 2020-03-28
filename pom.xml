@@ -9,7 +9,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Serenity project using Cucumber and Serenity BDD</name>
+	<name>Serenity project using Cucumber and Serenity BDD by Bárbara Cabral</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
