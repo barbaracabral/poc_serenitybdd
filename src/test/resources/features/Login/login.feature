@@ -5,7 +5,7 @@ Funcionalidade: Login no Mantis
   Eu gostaria de realizar login
   A fim de acessar a pagina principal
 
-@doing
+@todo
 Cenário: Login no Mantis - visualizar Página Principal
   Dado que eu acesso a pagina de login 
   Quando eu insiro dados de acesso válidos
