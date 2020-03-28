@@ -19,6 +19,7 @@ public class HomeStepsDefinitions {
 
     @Então("^eu devo visualizar que a seção de header carregou$")
     public void eu_devo_visualizar_que_a_seção_de_header_carregou() {
+        homeUISteps.clickOnSideMenu();
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
     }

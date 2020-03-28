@@ -16,5 +16,9 @@ public class HomeUISteps extends ScenarioSteps {
 		homePage.open();
 	}
 
+	public void clickOnSideMenu() {
+		homePage.clickOnSideMenu();
+	}
+
 
 }
