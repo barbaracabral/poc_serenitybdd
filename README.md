@@ -30,7 +30,7 @@ mvn clean verify -Denvironment=prod -Dcucumber.options="--tags @demo"
 
 By default, the tests run with Chrome. Otherwise, if you prefer Firefox, modify the serenity.properties file or run the tests like this:
 ```
-mvn clean verify -Denvironment=dev -Dwebdriver.driver=firefox
+mvn clean verify -Denvironment=prod -Dwebdriver.driver=firefox
 ```
 
 The reports will be generated in "target/site/serenity"
