@@ -6,23 +6,32 @@ package ua.cucumber.pages;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
-import net.serenitybdd.screenplay.actions.Switch;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 
 @DefaultUrl("page:home.page")
 public class HomePage extends PageObject {
 
-	@FindBy(id = "onesignal-popover-cancel-button")
-	WebElementFacade popUpCancel;
+	@FindBy(id = "search_query_top")
+	WebElementFacade search_field;
 
-	@FindBy(xpath = "//element[@data-e2e-name='menu-icon']")
-	WebElementFacade sideMenu;
+	@FindBy(name = "submit_search")
+	WebElementFacade search_button;
 
-	public void clickOnSideMenu() {
-		Switch.toAlert();
-		popUpCancel.click();
-		sideMenu.click();
+	@FindBy(css = ".product-listing")
+	WebElementFacade product_listing_label;
+	//product-listing
+
+	public void fill_search(String str_busca) {
+		search_field.sendKeys(str_busca);
+	}
+
+	public void click_search_button() {
+		search_button.click();
+	}
+
+	public String get_product_listing_label() {
+		return product_listing_label.getText();
 	}
 
 }
