@@ -20,7 +20,7 @@
 
 		<slf4j-simple>1.6.1</slf4j-simple>
 		<groovy-all>1.8.6</groovy-all>
-		<junit>4.12</junit>
+		<junit>4.13.1</junit>
 		<assertj-core>1.7.0</assertj-core>
 		<commons-text>1.1</commons-text>
 		<!-- Plugins -->
